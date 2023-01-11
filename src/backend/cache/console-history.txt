@@ -1,0 +1,11 @@
+await nft.symbol();
+await nft.tokenCount();
+const nft = await ethers.getContractAt("Nft","0xe7f1725e7734ce288f8367e1bb143e90bb3f0512")
+const nft = await ethers.getContractAt("0xe7f1725e7734ce288f8367e1bb143e90bb3f0512")
+await Nft.symbol();
+await Nft.tokenCount();
+Nft.tokenCount();
+Nft
+const Nft = await ethers.getContractAt("Nft","0x5fbdb2315678afecb367f032d93f642f64180aa3")
+const nft = await ethers.getContractAt("Nft","0x5fbdb2315678afecb367f032d93f642f64180aa3")
+const nft = await ethers.getContractAt("0x5fbdb2315678afecb367f032d93f642f64180aa3")
