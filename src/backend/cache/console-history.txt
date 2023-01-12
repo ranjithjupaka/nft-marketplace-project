@@ -1,3 +1,17 @@
+await marketplace.itemCount();
+await marketplace.feePercent();
+await marketplace.feeAccount();
+const marketplace = await ethers.getContractAt("Marketplace","0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+const Marketplace = await ethers.getContractAt("Marketplace","0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+await Marketplace.itemCount();
+await Marketplace.feeAccount();
+Marketplace
+const Marketplace = await ethers.getContractAt("Marketplace","0x5FbDB2315678afecb367f032d93F642f64180aa3")
+await marketplace.feePercentage();
+await marketplace.feeAccount()
+marketplace
+const marketplace  = await ethers.getContractAt("Marketplace","0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512")
+const marketplace  = await ethers.getContractAt("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512")
 await nft.symbol();
 await nft.tokenCount();
 const nft = await ethers.getContractAt("Nft","0xe7f1725e7734ce288f8367e1bb143e90bb3f0512")
